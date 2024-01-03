@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300;400&family=Poppins&family=Roboto+Slab:wght@300&family=Sometype+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarone p{
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+
+.category{
+    text-align: center;
+}
+
+.category li{
+    display: inline-block;
+    padding: 0 23px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{
+    height: 1px;
+}
+
+.middle-picture{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    align-self: center;
+    padding-top: 4px;
+
+}
+
+/**
+
+.best-seller-pics{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+.picsone img{
+width: 320px;
+}
+
+**/
+
+.best-seller{
+    padding: 50px 60px;
+}
+
+.best-seller-pics{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 100px;
+    gap: 5px;
+
+
+    @media (min-width: 481px) and (max-width: 900px){
+        grid-template-columns: repeat(2, 1fr);
+        }
+    
+        @media (min-width: 320px) and (max-width: 480px){
+            grid-template-columns: repeat(1, 1fr);
+            }
+
+
+.picsone img{
+display: block;
+width: 100%;
+}
+
+.picsone p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+}
+/**
+.mainhoodies{
+    width: 100%;
+    padding: 50px 55px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: flex-start;
+}
+
+.hoodtext{
+    background-color: red;
+    padding: 50px 0;
+
+}
+**/
+
+.mainhoodies{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: 40px 50px;
+   gap: 50px;
+
+
+
+   @media (min-width: 320px) and (max-width: 768px){
+    grid-template-columns: 1fr;
+    }
+
+.hoodpic img{
+    display: block;
+    width: 100%;
+    
+}
+.hoodtext{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hoodtext p{
+font-size: 13.5px;
+}
+
+.hoodtext h3{
+    font-size: 35px;
+    font-weight: bolder;
+    }
+
+.button{
+    background-color: rgb(37, 36, 43);
+    color: white;
+    padding: 13px 40px;
+    text-decoration: none;
+}
+
+}
+.button p{
+    font-size: 18PX;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/**
+.women{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.women img{
+    padding-left: 55px;
+}
+
+.imagebuttontext{
+    position: absolute;
+    top: 40%;
+    right: 44%;
+}
+**/
+.mainwoman{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 28px;
+    
+}
+
+.women{
+    width: 100%;
+    height: 100vh;
+    background: url(pics/women.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagebuttontext h2{
+    font-size: 50px;
+    color: rgb(226, 43, 171);
+}
+
+.imagebuttontext button{
+    padding: 13px 40px;
+    background-color:  rgb(226, 43, 171);
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.men{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.men img{
+    padding-left: 55px;
+}
+
+.cart{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.bordercart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    padding: 20px 30px;
+
+    @media (min-width: 320px) and (max-width: 768px){
+        grid-template-columns: 1fr;
+}
+
+.imgone img{
+    width: 100%;
+    
+}
+
+}
+
+.ourcitymain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 30px;
+
+    @media (min-width: 320px) and (max-width: 768px){
+        grid-template-columns: 1fr;
+    }
+
+.ourcity img{
+    width: 100%;
+}
+
+}
+
+
+.ourcity h2{
+padding: 15px 0;
+}
+
+.ourangeles{
+    padding: 0 40px;
+}
+
+
+
+.groupic{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+    padding: 0 15px;
+
+    @media (min-width: 320px) and (max-width: 900px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.groupic img{
+    width: 100%;
+}
+
+
+
+.footermain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 100px 50px;
+    gap: 20px;
+
+    @media (min-width: 481px) and (max-width: 900px){
+        grid-template-columns: repeat(2, 1fr);
+        }
+    
+        @media (min-width: 320px) and (max-width: 480px){
+            grid-template-columns: repeat(1, 1fr);
+            }
+    
+
+.liclass li{
+    text-decoration: none;
+    
+}
+
+}
+/**
+bootstrap navbar css code for offcanvas
+**/
+
+.but{
+    margin: 0 10px;
+    border: 2px solid black;
+    color: black;
+    padding: 8px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+@media (min-width:320px) and (max-width:991px){
+    .but{
+        visibility: collapse;
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+    }
+
+}
+
+.newbutton{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    border: 0;
+}    
+
+@media (min-width:320px) and (max-width:991px){
+
+.newbutton{
+margin: 0 10px;
+font-size: 17px;
+    border: 2px solid black;
+    color: black;
+    padding: 8px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.newbutton:hover{
+    border: 2px solid green;
+    color: green;
+}
+}
+
+.but:hover{
+    background-color: black;
+    color: white;
+    transition: all ease-out .5.0s;
+    transform: scale(1.1);
+
+}
+.login-button{
+    background-color: green;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.login-button:hover{
+    background-color: black;
+    transition: all ease-out .5.0s;
+    transform: scale(1.1);
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    position: relative;
+    font-weight: 500;
+}
+
+@media (min-width:991px){
+.nav-link::before{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2.2px;
+    background-color: green;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+
+.nav-link:hover::before, .nav-link.active::before{
+width: 100%;
+visibility: visible;
+}
+}
