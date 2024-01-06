@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apparel</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Craiglist</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-<headmain class="hea">
+
+  <header class="header">
+
     <nav class="navbar navbar-expand-lg  fixed-top">
+
         <div class="container-fluid">
-            <a class="navbar-brand me-auto" href="#"><h3>Navbar</h3></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <a class="logo navbar-brand me-auto" href="#"><img src="pics/logo.png" alt="logo"></a>
           
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navbar</h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="pics/logo.png" alt=""></h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             
@@ -37,7 +46,7 @@
                   <li class="nav-item">
                     <a class="nav-link mx-lg-2" href="#">Contact us</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item dropdownnav">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown link
                     </a>
@@ -51,199 +60,197 @@
                     <a class="nav-link mx-lg-2" href="#">Sign up</a>
                   </li>
 
-                  <!--
-                    Incase you want to center the logo this is where the navbar code should be inputted
                   
-                
-                -->
-                
               </ul>
               
             </div>
             
           </div>
-          <a class="login-button" href="">Login</a>
+          
+          <a class="login-button" href="mm">Login</a>
           <a class="but" href="">Sign Up</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="dropdown">
+            <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="pics/en.png.png" alt="">EN
+            </button>
+            <div class="langchange">
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Brt</a></li>
+              <li><a class="dropdown-item" href="#">Fre </a></li>
+              <li><a class="dropdown-item" href="#">Aus</a></li>
+            </ul>
+        </div>
+          </div>
           
           
         </div>
       </nav>
-</headmain>
 
-<br><br><br>
+  </header>  
 
-<div class="category">
-    <ul>
-        <li>Heavy Fleece</li>
-        <li>The 1801</li>
-        <li>Women's</li>
-        <li>Men's</li>
-        <li>Kid's</li>
-        <li>Marketplace</li>
-        <li>Collections</li>
-        <li>Factory Store</li>  
-    </ul>
-</div>
- 
-    <img class="middle-picture" src="pics/kkk.png" width="100%" alt="">
+  
+<background-gradient class="background-gradient" style="background-color: red;">
 
-<div class="best-seller">
-    <img src="pics/best-seller.PNG" alt="best-seller" width="300px">
-    <p style="padding-left: 3px;">view all</p>
-    <hr width="55px">
-</div>
+ <hero class="hero">
+    <p>get everything you need on <span class="craig">craiglist</span></p>
+ </hero> 
 
-<div class="best-seller-pics">
- <div class="picsone">
-    <img src="pics/RGB300.png" alt="firstpics">
-    <p>RGB300</p>
-    <p>Tennis Skirt (Classic Colors)</p>
- </div>
+ <paragraph class="paragraph">
+    <p>get jobs,gigs and any service you might need at an affordable prices. With millions of active users and thousands of new ads posted every day, you're sure to find what you're looking for.</p>
+ </paragraph>
 
- <div class="picsone">
-    <img src="pics/BIGSLOUCH.png" alt="firstpics">
-    <p>BIGSLOUCH</p>
-    <p>Big Slouch Sock</p>
- </div>
 
- <div class="picsone">
-    <img src="pics/navy1darker.png" alt="firstpics">
-    <p>8306GD</p>
-    <p>Cotton Spandex Garment Dye Turtleneck</p>
- </div>
-
- <div class="picsone">
-    <img src="pics/HF-09.png" alt="firstpics">
-    <p>HF-09 Unisex</p>
-    <p>14oz. Heavy Fleece Hooded Pullover <br> Sweatshirt</p>
- </div>
-
-</div>
-
-<div class="mainhoodies">
-
-    <div class="hoodpic">
-        <img src="pics/hoodie.png"  alt="">
+    <div class="searchmain">
+      <div class="searchbar">
+      <input type="search" placeholder="Search Craiglist">
+      <img src="pics/filter.svg" width="27px" alt="">
+      <img src="pics/Search_Icons_UIA.png" width="25px" alt="searchicon">
+      </div>
     </div>
-
-    <div class="hoodtext">
-        <div class="hoodtextitems">
-        <h3>HOODIES</h3>
-        <br>
-        <p>Our hooded zip-ups, pullovers, cropped sweatshirts and more are available in a variety of textiles and garment dyed colors to keep you cozy through the end of the season. Made by workers earning up to $25 an hour and no less than $16.</p>
-        <br>
-
-        <button class="button"><p>SHOP NOW</p></button>
-    </div>
-</div>
-
-</div>
-<div class="mainwoman">
-<div class="women">
-<div class="imagebuttontext">
-    <h2>Women's</h2><br>
-    <button><p>Shop women's</p></button>
-</div>
-</div>
-</div>
-
-<br><br>
-<div class="men">
-    <img src="pics/men.png" width="96%" alt="wos"> 
-    <div class="imagebuttontext">
-        <h2>Men's</h2><br>
-        <button><p>Shop Men's</p></button>
-    </div>
-    </div>
- 
-    <div class="cart">
-        <h1>CATEGORY HIGHLIGHTS</h1>
-    </div>
-
-    <border class="bordercart">
-        <div class="imgone">
-            <img src="pics/home_socks02_083122.png" alt="socks">
-        </div>
-        <div class="imgone">
-            <img src="pics/home_mesh02.png" alt="mesh">
-        </div>
-        <div class="imgone">
-            <img src="pics/home_hf02_083122.png" alt="hf02">
-        </div>
-        <div class="imgone">
-            <img src="pics/home_nail02_083122.png" alt="nail">
-        </div>
-        <div class="imgone">
-            <img src="pics/home_watches02_083122.png" alt="watches">
-        </div>
-        <div class="imgone">
-            <img src="pics/home_velour02_083122.png" alt="velour">
-        </div>
-        
-    </border>
-
-    <div class="ourcitymain">
-        <div class="ourcity">
-            <img src="pics/home_city_081021.png" alt="city">
-            <h2>OUR CITY INSPIRES US</h2>
-            <p>Los Angeles boasts the largest concentrations of communities outside their home countries of many nations, such as Korea, Iran, Thailand, Mexico, and El Salvador. Los Angeles is home to people from more than 140 countries, speaking 224 different languages.</p>
-            <a class="link" href="link">Learn more</a>
-        </div>
-
-        <div class="ourcity">
-            <img src="pics/home_city_081021.png" alt="city">
-            <h2>VIDEOS</h2>
-            <p>Cotton cleaning, Fabric finishing, T-Shirt cutting, Dov's college lecture, Interview with locals,<br> and much more.</p>
-            <a class="link" href="link">Learn more</a>
-        </div>
-    </div>
-
-    <div class="ourangeles">
-        <h1>THAT'S LOS ANGELES</h1><br>
-        <a href="link">Shop Gallery</a>
-    </div>
-    <br>
-        <div class="groupic">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-        <img src="pics/406844034_18323546023108277_5195722329139382582_n.jpg" alt="">
-    </div>
-
-
-    <footer class="footermain">
-        <div class="help">
-        <h3>Help</h3>
-        <ul class="liclass">
-            <li>+1 213 275 3120</li>
-            <li>Mon-Fri 10am-7pm (PST)</li>
-            <li>orders@losangelesapparel.net</li>
-            <li>Terms of Service</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-            <li>Start A Chat With Our Team</li>
-        </ul>
-    </div>
-
     
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+</background-gradient>
+<!-- for creating buttons with icons and text inside-->
+<twobuttons class="twobuttons">
+
+  <a href="https://icons8.com/icons"><button class="button"><img src="pics/person.svg" alt="">My Account</button></a>
+  <button class="buttontwo">create posting <img src="pics/add.svg" alt=""></button>
+
+</twobuttons>
+
+
+<div class="communitrule">
+ <p><span class="com">Community</span></p>
+  <img src="pics/line.png" alt="">
+</div>
+ 
+
+<general class="general">
+  <p>General</p>
+</general>
+
+<general-card class="grid-general-cards">
+   
+  <div class="card-one">
+     <div class="pic-relative">
+    <a href="link"><img src="pics/truck.png" alt=""></a>
+    <a href="link"><img class="star" src="pics/icons8-star-20.png" alt=""></a>
+  </div>
+    <h3>Tractor</h3>
+    <p>3 miles away</p>
+    <h4>$520</h4>
+  </div>
+
+  
+  <div class="card-one">
+    <div class="pic-relative">
+   <img src="pics/laptop.png" alt="">
+   <a href="link"><img class="star" src="pics/icons8-star-20.png" alt=""></a>
+ </div>
+   <h3>Macbook air</h3>
+   <p>3 miles away</p>
+   <h4>$900</h4>
+ </div>
+
+ <div class="card-one">
+  <div class="pic-relative">
+ <img src="pics/jeep.png" alt="">
+ <a href="link"><img class="star" src="pics/icons8-star-20.png" alt=""></a>
+</div>
+ <h3>Dessert Truck</h3>
+ <p>3 miles away</p>
+ <h4>$1500</h4>
+</div>
+
+<div class="card-one">
+  <div class="pic-relative">
+ <img src="pics/book.png" alt="">
+ <a href="link"><img class="star" src="pics/icons8-star-20.png" alt=""></a>
+</div>
+ <h3>Misery</h3>
+ <p>3 miles away</p>
+ <h4>$520</h4>
+</div>
+
+<div class="card-one">
+  <div class="pic-relative">
+ <img src="pics/ridercard.png" alt="">
+ <a href="link"><img class="star" src="pics/icons8-star-20.png" alt=""></a>
+</div>
+ <h3>Pontiac</h3>
+ <p>3 miles away</p>
+ <h4>$524</h4>
+</div>
+
+<div class="card-one">
+  <div class="pic-relative">
+ <img class="truck" src="pics/bike.png" alt="">
+ <a href="link"><img class="star" src="pics/icons8-star-20.png" alt=""></a>
+</div>
+ <h3>Raleigh Bike</h3>
+ <p>3 miles away</p>
+ <h4>$93</h4>
+</div>
+
+  
+
+</general-card>
+
+<div class="phone-holder">
+  <img src="pics/man.png" alt="">
+</div>
+
+<div class="visibility">
+  <h1>Boost Your visibility</h1>
+  <p>Post Ads Easily and Quickly on Our Site</p>
+  <button>Create an Ad</button>
+</div>
+
+<div class="footerlogo">
+  <img src="pics/logo.png" alt="">
+
+  <div class="footerlinks">
+    <p><a href="link">Albany</a></p>
+    <p><a href="link">Jersey Shore</a></p>
+    <p><a href="link">South Jersey</a></p>
+    <p><a href="link">Allentown</a></p>
+    <p><a href="link">Lancaster</a></p>
+    <p><a href="link">Utica</a></p>
+    <p><a href="link">Binghamton</a></p>
+    <p><a href="link">Long Island</a></p>
+    <p><a href="link">Western Mass</a></p>
+    <p><a href="link">Catskills</a></p>
+    <p><a href="link">New Haven</a></p>
+    <p><a href="link">Williamsport</a></p>
+    <p><a href="link">Central NJ</a></p>
+    <p><a href="link">New York</a></p>
+    <p><a href="link">Worcester</a></p>
+    <p><a href="link">Delaware</a></p>
+    <p><a href="link">Northwest CT</a></p>
+    <p><a href="link">York</a></p>
+    <p><a href="link">Eastern CT</a></p>
+    <p><a href="link">Oneonta</a></p>
+    <p><a href="link">US Cities</a></p>
+    <p><a href="link">Elmira</a></p>
+    <p><a href="link">Philadelphia</a></p>
+    <p><a href="link">US States</a></p>
+    <p><a href="link">Harrisburg</a></p>
+    <p><a href="link">Poconos</a></p>
+    <p><a href="link">Canada</a></p>
+    <p><a href="link">Hartford</a></p>
+    <p><a href="link">Reading</a></p>
+    <p><a href="link">Cl Worldwide</a></p>
+    <p><a href="link">Hudson Valley</a></p>
+    <p><a href="link">Rhode Island</a></p>
+  
+  </div>
+</div>
+
+<footer class="footer">
+  
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>
